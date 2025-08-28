@@ -1,0 +1,44 @@
+/* CarCard.css */
+.car-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px;
+    width: 250px;
+    text-align: center;
+    transition: transform 0.3s ease;
+  }
+  
+  .car-card:hover {
+    transform: translateY(-10px);
+  }
+  
+  .car-name {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .car-company {
+    font-size: 16px;
+    color: #555;
+  }
+  
+  .car-model {
+    font-size: 14px;
+    color: #777;
+  }
+  
+  .car-price {
+    font-size: 18px;
+    font-weight: bold;
+    color: #27ae60;
+  }
+  
+  .car-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  

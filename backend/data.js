@@ -1,0 +1,22 @@
+export const carData = [
+  { id: 1, name: "Tesla Model S", price: 79999, company: "Tesla", model: "2023" },
+  { id: 2, name: "Ford Mustang", price: 55999, company: "Ford", model: "2022" },
+  { id: 3, name: "Chevrolet Camaro", price: 64999, company: "Chevrolet", model: "2021" },
+  { id: 4, name: "BMW M3", price: 70999, company: "BMW", model: "2022" },
+  { id: 5, name: "Audi R8", price: 142000, company: "Audi", model: "2022" },
+  { id: 6, name: "Mercedes-Benz G-Class", price: 131000, company: "Mercedes-Benz", model: "2023" },
+  { id: 7, name: "Lamborghini Huracan", price: 261000, company: "Lamborghini", model: "2022" },
+  { id: 8, name: "Porsche 911", price: 114000, company: "Porsche", model: "2021" },
+  { id: 9, name: "Ferrari 488 GTB", price: 280000, company: "Ferrari", model: "2020" },
+  { id: 10, name: "Jaguar F-Type", price: 63900, company: "Jaguar", model: "2022" },
+  { id: 11, name: "Honda Civic", price: 23900, company: "Honda", model: "2023" },
+  { id: 12, name: "Toyota Camry", price: 25400, company: "Toyota", model: "2022" },
+  { id: 13, name: "Nissan Altima", price: 24800, company: "Nissan", model: "2021" },
+  { id: 14, name: "Mazda 3", price: 23400, company: "Mazda", model: "2023" },
+  { id: 15, name: "Subaru WRX", price: 28900, company: "Subaru", model: "2022" },
+  { id: 16, name: "Kia Stinger", price: 36300, company: "Kia", model: "2022" },
+  { id: 17, name: "Hyundai Sonata", price: 24900, company: "Hyundai", model: "2023" },
+  { id: 18, name: "Volkswagen Golf GTI", price: 30000, company: "Volkswagen", model: "2023" },
+  { id: 19, name: "BMW X5", price: 62900, company: "BMW", model: "2023" },
+  { id: 20, name: "Audi Q7", price: 54900, company: "Audi", model: "2023" }
+];
