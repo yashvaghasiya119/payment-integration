@@ -2,6 +2,7 @@
 import React, { useEffect } from 'react';
 import { useState } from 'react';
 import { CarCard } from './carcard';
+import { NavLink } from 'react-router-dom';
 
 export function CarList () {
     const [carData, setCarData] = useState([])
@@ -19,7 +20,9 @@ export function CarList () {
   return (
     <div className="car-list">
       {carData && carData.map((car, index) => (
-        <CarCard key={index} car={car} />
+        <NavLink to={`/carlist/${car.id}`}>
+          <CarCard key={index} car={car} />
+        </NavLink>
       ))}
     </div>
   );

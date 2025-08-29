@@ -4,6 +4,10 @@ import { Home } from './pages/home'
 import { UserRegistration } from './pages/signup'
 import { CarList } from './pages/carlist'
 import { CarDetail } from './pages/CarDetail'
+import { Login } from './pages/login'
+import { Success } from './pages/stripe/succes'
+import { Cancel } from './pages/stripe/cancel'
+
 
 function App() {
     const route = createBrowserRouter([
@@ -16,6 +20,10 @@ function App() {
           element:<UserRegistration/>
         },
         {
+          path:"/login",
+          element:<Login/>
+        },
+        {
           path:"/carlist",
           element:<CarList/>  
         },
@@ -23,6 +31,13 @@ function App() {
           path:"/carlist/:id",
           element:<CarDetail/>  
         },
+        {
+          path:"/stripe/success",
+          element:<Success/>
+        },{
+          path:"/stripe/cancel",
+          element:<Cancel/>
+        }
     ])
 
   return <>
