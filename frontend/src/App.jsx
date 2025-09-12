@@ -7,7 +7,6 @@ import { CarDetail } from './pages/CarDetail'
 import { Login } from './pages/login'
 import { Success } from './pages/stripe/succes'
 import { Cancel } from './pages/stripe/cancel'
-import { Crud } from './pages/crud/crud'
 
 
 function App() {
@@ -38,9 +37,6 @@ function App() {
         },{
           path:"/stripe/cancel",
           element:<Cancel/>
-        },{
-          path:"/crud",
-          element:<Crud/>
         }
     ])
 
